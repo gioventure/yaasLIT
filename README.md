@@ -1,2 +1,2 @@
 # yaasLIT
-Yasmine with an eeeeee
+https://bootstrapmade.com/regna-bootstrap-onepage-template/ <- for help to make it pretty. This is the resource I used.
