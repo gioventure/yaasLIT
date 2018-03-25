@@ -1,18 +1,21 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
-}
+  transition: all 100s ease-in-out;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: center; 
+  background: #000000 url("../img/hero-bg.jpg") no-repeat center center fixed;
+  }
 
+  
 a {
   color: #2dc997;
 }
@@ -74,30 +77,9 @@ h2.two:hover img{ //image is a child
    display: block;
 }
 
-/* Prelaoder */
+/* Preloader */
 #preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
-}
-
-/* Back to top button */
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: rgba(0, 0, 0, 0.2);
-  color: #fff;
-  padding: 6px 12px 9px 12px;
-  font-size: 16px;
-  border-radius: 2px;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s;
+  
 }
 
 @media (max-width: 768px) {
@@ -180,6 +162,8 @@ h2.two:hover img{ //image is a child
   background: url(../img/hero-bg.jpg) top center;
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (min-width: 1024px) {
