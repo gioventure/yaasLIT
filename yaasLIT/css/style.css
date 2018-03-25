@@ -35,6 +35,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+/* Show an image when you hover over whole section of text */
+img.appear{
+   display: none
+}
+
+h2.one:hover + img{ //img is a sibling
+   display: block;
+}
+
+h2.two:hover img{ //image is a child
+   display: block;
+}
+
 /* Prelaoder */
 #preloader {
   position: fixed;
