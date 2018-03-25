@@ -35,6 +35,32 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+/* Font on About page */
+
+h7 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	padding: 5;
+}
+
+#hero h7 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero h7 {
+font-size: 18px;
+line-height: 24px;
+margin-bottom: 30px;
+}
+
+
+/* Specifically for the yaasLIT brand name */
+b {
+    text-transform: lowercase;
+}
+
 /* Show an image when you hover over whole section of text */
 img.appear{
    display: none
